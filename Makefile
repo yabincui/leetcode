@@ -1,6 +1,6 @@
-UnitTestList := BestTimeToBuyAndSellStockIVTest
+UnitTestList := BestTimeToBuyAndSellStockIVTest WildcardMatchingTest
 
-all: BestTimeToBuyAndSellStockIVTest
+all: WildcardMatchingTest
 
 
 JUNIT_MAIN = org.junit.runner.JUnitCore

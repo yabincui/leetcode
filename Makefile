@@ -1,6 +1,6 @@
 UnitTestList := BestTimeToBuyAndSellStockIVTest WildcardMatchingTest
 
-all: WildcardMatchingTest
+all: MaximalRectangle.class
 
 
 JUNIT_MAIN = org.junit.runner.JUnitCore

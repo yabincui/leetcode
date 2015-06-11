@@ -1,6 +1,9 @@
-UnitTestList := BestTimeToBuyAndSellStockIVTest WildcardMatchingTest
+include gmsl-1.1.7/gmsl
 
-all: MaximalRectangle.class
+UnitTestList := BestTimeToBuyAndSellStockIVTest WildcardMatchingTest \
+                TheSkylineProblemTest ShortestPalindromeTest \
+
+all: $(call last,$(UnitTestList))
 
 
 JUNIT_MAIN = org.junit.runner.JUnitCore

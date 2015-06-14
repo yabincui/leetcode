@@ -2,6 +2,7 @@ include gmsl-1.1.7/gmsl
 
 UnitTestList := BestTimeToBuyAndSellStockIVTest WildcardMatchingTest \
                 TheSkylineProblemTest ShortestPalindromeTest \
+                WordSearchII.class \
 
 all: $(call last,$(UnitTestList))
 

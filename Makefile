@@ -7,6 +7,7 @@ UnitTestList := BestTimeToBuyAndSellStockIVTest WildcardMatchingTest \
                 MaximalSquareTest ContainsDuplicate.class ContainsDuplicateII.class \
                 ContainsDuplicateIII.class MaximalProductSubarrayTest \
                 FindMinimumInRotatedSortedArray.class FindMinimumInRotatedSortedArrayII.class \
+                MinStack.class IntersectionOfTwoLinkedLists.class FindPeakElement.class \
 
 all: $(call last,$(UnitTestList))
 

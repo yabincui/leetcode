@@ -2,7 +2,11 @@ include gmsl-1.1.7/gmsl
 
 UnitTestList := BestTimeToBuyAndSellStockIVTest WildcardMatchingTest \
                 TheSkylineProblemTest ShortestPalindromeTest \
-                WordSearchII.class \
+                WordSearchII.class ImplementStackUsingQueues.class InvertBinaryTree.class \
+                BasicCalculator.class RectangleArea.class CountCompleteTreeNodes.class \
+                MaximalSquareTest ContainsDuplicate.class ContainsDuplicateII.class \
+                ContainsDuplicateIII.class MaximalProductSubarrayTest \
+                FindMinimumInRotatedSortedArray.class FindMinimumInRotatedSortedArrayII.class \
 
 all: $(call last,$(UnitTestList))
 
